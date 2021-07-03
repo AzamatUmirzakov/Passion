@@ -1,0 +1,56 @@
+div.video {
+  background: #344b61;
+  padding: 100px 0;
+}
+
+div.video-inside {
+}
+
+div.video-inside > header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div.video-inside > header > h1 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+div.video-block {
+  margin: 0 auto;
+  padding: 150px 0;
+  text-align: center;
+  width: 60%;
+  min-width: 215px;
+  background-color: #f8f8f8;
+}
+
+div.video-block > a > i {
+  color: #fff;
+  text-shadow: 0px 0px 10px #ccc;
+}
+
+div.video-block > a > i:hover {
+  text-shadow: 0px 0px 20px #ccc;
+  color: #f8f8f8;
+}
+
+div.website-block {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+div.website-block > a {
+  display: block;
+  background-image: url("../../images/video-notebook.png");
+  padding: 170px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: rotateZ(180deg);
+  transform: rotateY(180deg);
+  text-shadow: 0px 0px 20px #ccc;
+  color: #f8f8f8;
+}

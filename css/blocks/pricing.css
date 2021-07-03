@@ -1,0 +1,101 @@
+div.pricing {
+  padding: 100px 0;
+}
+
+header.pricing-header {
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+header.pricing-header > h1 {
+  font-size: 1.5em;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+header.pricing-header > h1:before {
+  content: "";
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  width: 100px;
+  height: 1px;
+  margin-left: -50px;
+  background: #e7e7e7;
+}
+
+div.prices {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.price-block {
+  display: block;
+  background: #f8f8f8;
+  text-align: center;
+  font-family: "Open Sans";
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* width: 300px; */
+  margin-left: 20px;
+  margin-bottom: 20px;
+  flex: 1 0 30%;
+}
+
+div.price-block:first-child,
+div.price-block:nth-child(4) {
+  margin-left: 0;
+}
+
+div.price-block > h1 {
+  padding-bottom: 40px;
+  font-size: ‭1.1875‬em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+div.price-description,
+div.price-number {
+  margin: 20px 40px;
+}
+
+div.price-description > p {
+  margin-bottom: 20px;
+  color: #808080;
+  font-size: 0.875em;
+}
+
+div.price-number > p {
+  font-size: 0.875em;
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+span.number {
+  /* font-size: ‭2.7142857142857142857142857142857em; */
+  font-size: 38px;
+}
+
+span.dollar {
+  align-self: flex-start;
+}
+
+span.time {
+  align-self: flex-end;
+  font-style: italic;
+}
+
+div.price-block > a.border-radius-link {
+  padding: 10px 30px;
+}
+
+div.price-block:hover {
+  background: #344b61;
+}
+
+div.price-block:hover h1,
+div.price-block:hover p,
+div.price-block:hover span {
+  color: #fff;
+}

@@ -1,0 +1,33 @@
+div.worldwide {
+  padding: 100px 0;
+  border-top: 1px solid #f8f8f8;
+}
+
+div.worldwide-inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.worldwide-block {
+  max-width: 40%;
+}
+
+div.worldwide-block > header {
+  max-width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+div.worldwide-block > header > h1 {
+  font-size: 1.5em;
+  font-family: "Open Sans";
+}
+
+div.worldwide-block > div.block-text > p {
+  font-family: 0.875em;
+  color: #808080;
+  font-family: "Open Sans";
+  margin-bottom: 15px;
+}

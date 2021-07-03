@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pink-link {
+  color: #f67b7c;
+  text-decoration: none;
+  font-family: "Open Sans";
+}
+
+.pink-link:hover {
+  text-decoration: underline;
+}
+
+.border-radius-link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Open Sans";
+  padding: 12px 17px;
+  background: #f67b7c;
+  border-radius: 35px;
+  border: 3px solid transparent;
+}
+
+.border-radius-link:hover {
+  background: transparent;
+  border-color: #f67b7c;
+  color: #f67b7c;
+}

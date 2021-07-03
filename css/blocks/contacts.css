@@ -1,0 +1,30 @@
+div.contacts {
+  padding: 100px 0;
+  background: #344b61;
+  color: #fff;
+  font-family: "Open Sans";
+  border-bottom: 1px solid #495d71;
+}
+
+div.contacts-inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.contacts-block {
+  max-width: 45%;
+}
+
+div.contacts-block > h1 {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+div.contacts-block > h1 > i {
+  margin-right: 10px;
+}
+
+div.contacts-block > p {
+  font-size: 0.875em;
+}

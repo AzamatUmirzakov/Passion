@@ -1,0 +1,86 @@
+div.awesomeness {
+  background: #f8f8f8;
+  padding: 100px 0;
+}
+
+header.awesomeness-header {
+  margin-bottom: 80px;
+}
+
+header.awesomeness-header > h1 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+header.awesomeness-header > h1:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  top: 200%;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #808080;
+}
+
+header.awesomeness-header > p {
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 0.875em;
+  color: #808080;
+}
+
+div.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.card > img {
+  width: 100%;
+}
+
+div.card {
+  display: inline-block;
+  background: #fff;
+  width: 30%;
+}
+
+div.card-text {
+  padding: 20px;
+}
+
+div.card-text > h1 {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.9375em;
+  margin-bottom: 15px;
+}
+
+div.card-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.card-icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.card-icons > a > svg {
+  height: 15px;
+  width: 15px;
+}
+
+div.card-icons > a > svg > path {
+  fill: #e7e7e7;
+}
+
+div.card-icons > a:hover > svg > path {
+  fill: #f67b7c;
+}

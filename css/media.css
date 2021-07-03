@@ -1,0 +1,41 @@
+@media (max-width: 1135px) {
+  .center {
+    padding: 0px 30px;
+  }
+
+  div.client-reviews {
+    justify-content: space-around;
+  }
+
+  div.client-review {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 995px) {
+  div.description-text {
+    max-width: 70%;
+  }
+
+  div.worldwide-block > header {
+    max-width: 45%;
+  }
+
+  h1 {
+    font-size: 1.5em !important;
+  }
+
+  p {
+    font-size: 0.875em !important;
+  }
+
+  a {
+    font-size: 0.75em !important;
+  }
+}
+
+@media (max-width: 885px) {
+  div.worldwide-block > header {
+    max-width: 50%;
+  }
+}

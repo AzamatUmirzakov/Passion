@@ -1,0 +1,31 @@
+div.question {
+  padding: 100px 0;
+  background: #f67b7c;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+header.question-header {
+  margin-bottom: 45px;
+}
+
+header.question-header > h1 {
+  margin-top: 25px;
+  font-size: 2.5em;
+}
+
+div.question-text {
+  font-size: 0.875em;
+}
+
+div.question-text > a {
+  margin-top: 45px;
+  font-weight: bold !important;
+}
+
+div.question-text > a:hover {
+  color: #fff !important;
+  border-color: #fff;
+  background: transparent !important;
+}
